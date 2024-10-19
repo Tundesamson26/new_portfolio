@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="font-semibold text-purple-600">
               Software Engineer & Technical Writer {" "}
             </span>
-            based in Lagos, Nigeria. Working towards creating software that
+            based in Nigeria. Working towards creating software that
             makes life easier and more meaningful.
           </p>
           <Link
