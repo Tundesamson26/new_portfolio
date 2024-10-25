@@ -1,8 +1,8 @@
-"use client" // this is a client component
-import React from "react"
-import Image from "next/image"
-import { Link } from "react-scroll/modules"
-import { HiArrowDown } from "react-icons/hi"
+"use client"; // this is a client component
+import React from "react";
+import Image from "next/image";
+import { Link } from "react-scroll/modules";
+import { HiArrowDown } from "react-icons/hi";
 
 const HeroSection = () => {
   return (
@@ -18,26 +18,42 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Bigsam!</h1>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
+            Hi, I&#39;m Bigsam!
+          </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-purple-600">
-              Software Engineer & Technical Writer {" "}
+              Software developer & Technical writer{" "}
             </span>
-            based in Nigeria. Working towards creating software that
-            makes life easier and more meaningful.
+            based in Nigeria. Working towards creating software that makes life
+            easier and more meaningful.
           </p>
-          <Link
-            to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-purple-600 rounded shadow hover:bg-purple-700 cursor-pointer"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Projects
-          </Link>
+          <div className="flex items-center gap-2">
+            <Link
+              to="projects"
+              className="text-neutral-100 font-semibold px-6 py-3 bg-purple-600 rounded shadow hover:bg-purple-700 cursor-pointer"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Projects
+            </Link>
+            <a
+              href="/resume.pdf" // Path to the file in the public folder
+              download="bigsam.pdf" // Optional: Customize the downloaded file name
+              className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded-xl shadow hover:bg-cyan-700 cursor-pointer"
+              // activeClass="active"
+              // spy={true}
+              // smooth={true}
+              // offset={-100}
+              // duration={500}
+            >
+              Download CV
+            </a>
+          </div>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
@@ -53,7 +69,7 @@ const HeroSection = () => {
         </Link>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;

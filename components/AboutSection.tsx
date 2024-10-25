@@ -40,10 +40,10 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I am a self-driven software engineer and technical writer with a
+              I am a self-driven software developer and technical writer with a
               highly creative mind. I&#39;m available for a full-time role. It
-              could be remote or relocation. Problem-solving experience with
-              JavaScript, Typescript, React.js, Next.js, and Blockchain
+              could be remote or relocation. Problem-solving experience with HTML & CSS,
+              JavaScript, Typescript, React.js, Next.js, Node.js, and Blockchain
               development. I love to learn new skills and knowledge, also love
               diversity because it&#39;s my desire to explore new cultures
             </p>
