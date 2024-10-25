@@ -2,7 +2,7 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import { BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
@@ -16,14 +16,14 @@ const projects = [
     name: "e-Manage",
     description: "e-Manage is a School management portal built with Next.js, TailwindCSS, Clerk, Prisma and PostgresSQL.",
     image: "/e-Mange.png",
-    link: "https://platoio.com/register",
+    link: "https://github.com/Tundesamson26/",
   },
   {
     name: "Kator Family Photos",
     description:
       "Kator Family Photos is a photos and video digitization service in the LA area.",
     image: "/familyphotos.png",
-    link: "https://katorfamilyphotos.com/",
+    link: "https://github.com/Tundesamson26/",
   },
 ]
 
@@ -58,12 +58,6 @@ const ProjectsSection = () => {
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
-                      {/* <Link href={project.github} target="_blank">
-                        <BsGithub
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
-                      </Link> */}
                       <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
