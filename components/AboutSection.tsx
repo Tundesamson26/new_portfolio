@@ -5,7 +5,7 @@ const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "Tailwind CSS" },
-   { skill: "MaterialUI" },
+  { skill: "MaterialUI" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
   { skill: "Qwik" },
@@ -42,17 +42,18 @@ const AboutSection = () => {
             <p>
               I am a self-driven software developer and technical writer with a
               highly creative mind. I&#39;m available for a full-time role. It
-              could be remote or relocation. Problem-solving experience with HTML & CSS,
-              JavaScript, Typescript, React.js, Next.js, Node.js, and Blockchain
-              development. I love to learn new skills and knowledge, also love
-              diversity because it&#39;s my desire to explore new cultures
+              could be remote or relocation. Problem-solving experience with
+              HTML & CSS, JavaScript, Typescript, React.js, Next.js, Node.js,
+              and Blockchain development. I love to learn new skills and
+              knowledge, also love diversity because it&#39;s my desire to
+              explore new cultures
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              From reading, listening to music, singing, traveling, to making
+              technical contents, I am always seeking new experiences and love
+              to keep myself engaged and learning new things.
             </p>
             <br />
             <p>
