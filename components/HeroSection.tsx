@@ -24,9 +24,9 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-purple-600">
-              Software developer & Technical writer{" "}
+              Software developer & Technical writer.{" "}
             </span>
-            based in Nigeria. Working towards creating software that makes life
+            Working towards creating software that makes life
             easier and more meaningful.
           </p>
           <div className="flex items-center gap-2">
@@ -42,16 +42,17 @@ const HeroSection = () => {
               Projects
             </Link>
             <a
-              href="/resume.pdf" // Path to the file in the public folder
-              download="bigsam.pdf" // Optional: Customize the downloaded file name
-              className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded-xl shadow hover:bg-cyan-700 cursor-pointer"
+              href="https://drive.google.com/file/d/14SZSTibp94AfmNH-_IZZVI37U4eTqLsK/view?usp=sharing"
+              className="text-neutral-100 font-semibold px-6 py-3 bg-cyan-600 rounded shadow hover:bg-cyan-700 cursor-pointer"
+              target="_blank"
+              rel="noreferrer"
               // activeClass="active"
               // spy={true}
               // smooth={true}
               // offset={-100}
               // duration={500}
             >
-              Download CV
+              Resume
             </a>
           </div>
         </div>

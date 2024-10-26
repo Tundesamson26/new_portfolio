@@ -32,39 +32,39 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Odewole Babatunde Samson and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
+              Hi, I&#39;m Odewole Babatunde Samson -- an{" "}
+              <span className="font-bold">{"ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software developer
-              and technical writer based in Nigeria.
+              <span className="font-bold">{" versatile"}</span> software
+              developer and technical writer. With a deep passion for technology
+              and a commitment to continuous learning, I bring a creative and
+              problem-solving mindset to every project.
             </p>
             <br />
             <p>
-              I am a self-driven software developer and technical writer with a
-              highly creative mind. I&#39;m available for a full-time role. It
-              could be remote or relocation. Problem-solving experience with
-              HTML & CSS, JavaScript, Typescript, React.js, Next.js, Node.js,
-              and Blockchain development. I love to learn new skills and
-              knowledge, also love diversity because it&#39;s my desire to
-              explore new cultures
+              I specialize in HTML, CSS, JavaScript, Typescript, React.js,
+              Next.js, Node.js, and Blockchain development, with proven
+              experience in tackling complex challenges. I&#39;m currently open
+              to a full-time role, either remote or with relocation, where I can
+              contribute to innovative teams and projects
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, listening to music, singing, traveling, to making
-              technical contents, I am always seeking new experiences and love
-              to keep myself engaged and learning new things.
+              Beyond coding, I&#39;m passionate about learning and cultural
+              diversity, and I believe in the power of exploring new
+              perspectives. Whether I&#39;m diving into a new book, creating
+              technical content, traveling, or connecting with others, I&#39;m
+              always driven to expand my knowledge and experience.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
+              My goal is to{" "}
               <span className="font-bold text-teal-500">
-                never stop growing
+                push the boundaries of what’s possible in tech.
               </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              I&#39;m excited to see where my career journey leads, and I&#39;m
+              always open to connecting with others and exploring new
+              opportunities.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
